@@ -64,7 +64,7 @@ body {
   transition: 0.25s linear;
 }
 
-nav.navbar .navbar-nav a:hover::after {
+.navbar .navbar-nav a:hover::after {
   transform: scaleX(0.5);
 }
 
