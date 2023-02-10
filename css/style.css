@@ -83,7 +83,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/Kopipokat2.PNG");
+  background-image: url("../img/Kopipokat2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -144,12 +144,43 @@ body {
 }
 
 /* About Section */
-.about {
+.about,
+.menu {
   padding: 7rem 7% 1.4rem;
 }
-.about h2 {
+.about h2,
+.menu h2 {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about .about-row {
+  display: flex;
+}
+.about .about-row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .about-row .about-img img {
+  width: 100%;
+}
+
+.about .about-row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .about-row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .about-row .content p {
+  font-size: 0.8rem;
+  margin-bottom: 1.4rem;
+  font-weight: 200;
+  line-height: 1.5;
 }
 
 /* Media Queries */
@@ -196,6 +227,25 @@ body {
 
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
+  }
+
+  .about .about-row {
+    flex-wrap: wrap;
+  }
+
+  .about .about-row .about-img img {
+    height: 25rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .about-row .content h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .about .about-row .content p {
+    font-size: 1.2rem;
   }
 }
 /* Mobile */
