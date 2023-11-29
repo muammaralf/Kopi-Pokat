@@ -1,6 +1,6 @@
 :root {
-  --primay: #409a0d;
-  --bg: #010101;
+  --primay: #47b5ff;
+  --bg: #ffffff;
 }
 
 * {
@@ -15,7 +15,7 @@
 body {
   font-family: "Nunito", sans-serif;
   background-color: var(--bg);
-  color: #ffffff;
+  color: #010101;
   /* height: 3000px; */
 }
 
@@ -83,7 +83,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("https://github.com/muammaralf/Kopi-Pokat/blob/main/img/Kopipokat2.png");
+  /* background-image: url("../img/Kopipokat2.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
